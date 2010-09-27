@@ -21,7 +21,6 @@
 
 package org.webcat.pmdforplugins;
 
-import org.webcat.core.Application;
 import org.webcat.core.Subsystem;
 import com.webobjects.foundation.*;
 
@@ -30,8 +29,9 @@ import com.webobjects.foundation.*;
  *  This subsystem provides <a href="http://pmd.sf.net/">PMD</a> for
  *  grading plug-ins.
  *
- *  @author  stedwar2
- *  @version $Id$
+ *  @author  Stephen Edwards
+ *  @author  Last changed by $Author$
+ *  @version $Revision$, $Date$
  */
 public class PMDForPlugins
     extends Subsystem
@@ -57,14 +57,15 @@ public class PMDForPlugins
     * @param properties the dictionary to add new properties to;
     * individual plug-in information may override these later.
     */
-   public void addPluginPropertyBindings( NSMutableDictionary properties )
+   public void addPluginPropertyBindings(
+       NSMutableDictionary<String, String> properties)
    {
        // pmd.lib
        addFileBinding(
            properties,
            PMD_LIB_KEY,
            SUBSYSTEM_PREFIX + PMD_LIB_KEY,
-           "pmd/lib" );
+           "pmd/lib");
    }
 
 
