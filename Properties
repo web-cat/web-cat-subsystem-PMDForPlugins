@@ -1,12 +1,12 @@
 #This file is automatically rewritten by ANT, so all formatting will be trashed.
-#Thu Sep 08 21:32:09 EDT 2016
+#Sun Feb 25 20:12:22 GMT-05:00 2018
 PMDForPlugins.history.url=http\://wiki.web-cat.org/WCWiki/PmdForPluginsSubsystem/ChangeHistory
-PMDForPlugins.version.date=20160908
+PMDForPlugins.version.date=20180225
 PMDForPlugins.license.url=http\://www.gnu.org/licenses/agpl.html
 PMDForPlugins.version.revision=2
 PMDForPlugins.version.minor=2
 subsystem.PMDForPlugins=org.webcat.pmdforplugins.PMDForPlugins
-PMDForPlugins.description=This subsystem provides <a href\="http\://pmd.sf.net/">PMD</a> to support grading plug-ins that perform static analysis of Java code.
+PMDForPlugins.description=This subsystem provides <a href\="http\://pmd.sf.net/">PMD</a> to support grading plug-ins that perform static analysis of Java code. This version includes PMD 5.5.1.
 PMDForPlugins.info.url=http\://wiki.web-cat.org/WCWiki/PmdForPluginsSubsystem
 PMDForPlugins.version.major=1
 PMDForPlugins.license=GNU Affero General Public License v.3
@@ -14,4 +14,4 @@ PMDForPlugins.provides=pluginProperties
 PMDForPlugins.provider=Virginia Tech Computer Science
 PMDForPlugins.provider.url=http\://web-cat.org/updates
 PMDForPlugins.requires=Core, ANTForPlugins
-PMDForPlugins.copyright=(c) 2006-2016 Virginia Tech Department of Computer Science
+PMDForPlugins.copyright=(c) 2006-2018 Virginia Tech Department of Computer Science

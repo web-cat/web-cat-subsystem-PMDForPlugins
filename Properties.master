@@ -10,7 +10,7 @@ PMDForPlugins.requires=Core, ANTForPlugins
 PMDForPlugins.provides=pluginProperties
 
 PMDForPlugins.copyright=\
-	(c) 2006-2016 Virginia Tech Department of Computer Science
+	(c) 2006-2018 Virginia Tech Department of Computer Science
 PMDForPlugins.provider=Virginia Tech Computer Science
 PMDForPlugins.provider.url=http\://web-cat.org/updates
 PMDForPlugins.info.url=http\://wiki.web-cat.org/WCWiki/PmdForPluginsSubsystem
@@ -21,4 +21,5 @@ PMDForPlugins.license.url=http\://www.gnu.org/licenses/agpl.html
 
 PMDForPlugins.description=\
 	This subsystem provides <a href\="http\://pmd.sf.net/">PMD</a> to \
-	support grading plug-ins that perform static analysis of Java code.
+	support grading plug-ins that perform static analysis of Java code. \
+	This version includes PMD 5.5.1.
